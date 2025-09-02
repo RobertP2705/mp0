@@ -21,6 +21,7 @@ section > div{
     height:80%;
     background-color: darkgrey;
     border-radius:20px;
+    padding:20px;
 }
 section > div:hover{
     background-color: gainsboro;
