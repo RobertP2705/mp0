@@ -1,1 +1,16 @@
-/* Your CSS here. */
+section {
+    width:50%;
+    height:40%;
+    margin:auto;
+    color: grey;
+    border-radius:20px;
+}
+
+section > img{
+    width:100%;
+    height:100%;
+}
+.mainGrid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
