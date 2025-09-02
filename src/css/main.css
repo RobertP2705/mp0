@@ -2,6 +2,10 @@ card {
     background-color: grey;
     border-radius:10px;
     border: 1px black solid;
+    width: 50vw;
+    height: 50vh;
+    top: 30vh;
+    margin:auto;
 }
 card:hover{
     top:3%;
@@ -26,8 +30,4 @@ card > div:hover{
     display: grid;
     grid-template-columns: 1fr 3fr;
     align-items:center;
-    width:50%;
-    height:60%;
-    top: 30%;
-    margin:auto;
 }
