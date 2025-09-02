@@ -1,25 +1,26 @@
 section {
     width:50%;
-    height:40%;
-    top: 20%;
+    height:60%;
+    top: 30%;
     margin:auto;
     background-color: grey;
-    border-radius:20px;
+    border-radius:10px;
     border: 1px black solid;
 }
 section:hover{
-    top:22%;
+    top:3%;
     background-color: lightgrey;
 }
 section > img{
     width:80%;
     height:80%;
-    border-radius:10px;
+    border-radius:20px;
 }
 section > div{
     width:80%;
     height:80%;
     background-color: darkgrey;
+    border-radius:20px;
 }
 section > div:hover{
     background-color: grey;
