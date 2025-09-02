@@ -8,8 +8,6 @@ card {
     width: 50vw;
     height: 70vh;
     margin:auto;
-    align-items:center;
-    margin-top: 15vh;
 }
 card:hover{
     top:3%;
@@ -30,4 +28,9 @@ card > div{
 }
 card > div:hover{
     background-color: gainsboro;
+}
+.mainGrid{
+    display: grid;
+    align-items:center;
+    margin-top: 15vh;
 }
