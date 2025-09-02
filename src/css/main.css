@@ -1,4 +1,4 @@
-section {
+card {
     width:50%;
     height:60%;
     top: 30%;
@@ -7,23 +7,23 @@ section {
     border-radius:10px;
     border: 1px black solid;
 }
-section:hover{
+card:hover{
     top:3%;
     background-color: lightgrey;
 }
-section > img{
+card > img{
     width:80%;
     height:80%;
     border-radius:20px;
 }
-section > div{
+card > div{
     width:80%;
     height:80%;
     background-color: darkgrey;
     border-radius:20px;
     padding:20px;
 }
-section > div:hover{
+card > div:hover{
     background-color: gainsboro;
 }
 .mainGrid{
