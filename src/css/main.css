@@ -3,8 +3,7 @@ card {
     border-radius:10px;
     border: 1px black solid;
     width: 50vw;
-    height: 50vh;
-    top: 30vh;
+    height: 70vh;
     margin:auto;
 }
 card:hover{
@@ -30,4 +29,5 @@ card > div:hover{
     display: grid;
     grid-template-columns: 1fr 3fr;
     align-items:center;
+    margin-top: 15vh;
 }
