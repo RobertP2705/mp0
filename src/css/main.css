@@ -25,6 +25,7 @@ card > div{
     background-color: darkgrey;
     border-radius:20px;
     padding:20px;
+    margin:auto;
 }
 card > div:hover{
     background-color: gainsboro;
