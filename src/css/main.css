@@ -1,20 +1,23 @@
 section {
     width:50%;
     height:40%;
+    top: 20%;
     margin:auto;
     background-color: grey;
     border-radius:20px;
     border: 1px black solid;
 }
 section:hover{
-    height:42%;
+    top:22%;
+    height:40%;
     background-color: lightgrey;
 }
 section > img{
-    width:100%;
-    height:100%;
+    width:80%;
+    height:80%;
 }
 .mainGrid{
     display: grid;
     grid-template-columns: 1fr 3fr;
+    align-items:center;
 }
