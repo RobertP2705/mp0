@@ -9,13 +9,20 @@ section {
 }
 section:hover{
     top:22%;
-    height:40%;
     background-color: lightgrey;
 }
 section > img{
     width:80%;
     height:80%;
     border-radius:10px;
+}
+section > div{
+    width:80%;
+    height:80%;
+    background-color: darkgrey;
+}
+section > div:hover{
+    background-color: grey;
 }
 .mainGrid{
     display: grid;
